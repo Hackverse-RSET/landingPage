@@ -10,7 +10,7 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 html {
-  background-color: #570022;
+  background-color: #353B43;
   color: #0f004e;
 }
 
@@ -584,7 +584,7 @@ a:hover {
 }
 
 .navigation .navigation-menu li.active a {
-  color: #faff00;
+  color: #57CBCC;
 }
 
 .navigation .navigation-menu li a {
@@ -1176,7 +1176,8 @@ a:hover {
 ==================================================================*/
 .team-member {
   background-color: #2B2D33;
-margin: 20px;
+  margin-bottom: 10px;
+
 }
 
 .member-photo {
@@ -1184,7 +1185,7 @@ margin: 20px;
   position: relative;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 888px) {
   .member-photo {
     text-align: center;
   }
