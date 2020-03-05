@@ -10,14 +10,14 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 html {
-  background-color: #31373a;
+  background-color: #570022;
   color: #0f004e;
 }
 
 body {
-  background-color: #31373a;
+  background-color: #353B43;
   font-family: "Bauhaus 93", sans-serif;
-  color: #737f8a;
+  color: #fff;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -57,7 +57,7 @@ p {
 
 ::selection {
   color: #fff;
-  background: #57cbcc;
+  background: #F2F70D;
 }
 
 ol,
@@ -123,7 +123,7 @@ a:hover {
 }
 
 .form-control {
-  background-color: #0f1261;
+  background-color: #353B43;
   border-radius: 0;
   padding: 5px 10px;
   border: 0 none;
@@ -171,11 +171,11 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #f2f70d;
+  background-color: #57CBCC;
 }
 
 .color {
-  color: #f2f70d;
+  color: #57CBCC;
 }
 
 .sub-title {
@@ -201,7 +201,7 @@ a:hover {
 }
 
 .bg-dark {
-  background: #0f1261;
+  background: #2B2D33;
 }
 
 .parallax-section {
@@ -336,7 +336,7 @@ a:hover {
 .sk-cube-grid .sk-cube {
   width: 33%;
   height: 33%;
-  background-color: #57cbcc;
+  background-color: #57CBCC;
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
   animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
@@ -425,7 +425,7 @@ a:hover {
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #57CBCC;
 }
 
 .title p {
@@ -441,7 +441,7 @@ a:hover {
 }
 
 .section-bg {
-  background: #292F36;
+  background: #2B2D33;
 }
 
 .overly {
@@ -515,7 +515,7 @@ a:hover {
 }
 
 .pagination li a {
-  background: #242930;
+  background: #2B2D33;
   border: 0;
   color: #fff;
 }
@@ -565,7 +565,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #330217;
+  background-color: #2B2D33;
   width: 100%;
   z-index: 99;
   margin-bottom: 0;
@@ -714,7 +714,7 @@ a:hover {
   About us section
 ==================================================================*/
 .about .block {
-  background: #242930;
+  background: #2B2D33;
   padding: 30px;
   border-bottom: 2px solid transparent;
   transition: .5s all;
@@ -927,7 +927,7 @@ a:hover {
 .counters-item {
   padding: 25px 0;
   margin-bottom: 10px;
-  background: #292F36;
+  background: #2B2D33;
 }
 
 .counters-item i {
@@ -988,7 +988,7 @@ a:hover {
 }
 
 .pricing li:nth-child(2n) {
-  background-color: #292F36;
+  background-color: #2B2D33;
 }
 
 .pricing li .btn {
@@ -1175,7 +1175,7 @@ a:hover {
   Our Team
 ==================================================================*/
 .team-member {
-  background-color: #292F36;
+  background-color: #2B2D33;
 margin: 20px;
 }
 
@@ -1361,12 +1361,12 @@ margin: 20px;
   Latest Posts
 ==================================================================*/
 .note {
-  background-color: #292F36;
+  background-color: #2B2D33;
   border: 1px solid #4e595f;
 }
 
 .post-block {
-  background-color: #292F36;
+  background-color: #2B2D33;
   margin-bottom: 10px;
 }
 
@@ -1608,7 +1608,7 @@ margin: 20px;
 }
 
 .social-icon ul li a {
-  background-color: #26292e;
+  background-color: #2B2D33;
   border: 1px solid transparent;
   display: block;
   height: 70px;
@@ -1778,7 +1778,7 @@ margin: 20px;
 }
 
 .post-meta {
-  background-color: #3d444a;
+  background-color: #fff;
   border-top: 1px solid #4e595f;
   font-size: 13px;
   margin: 20px 0 0;
@@ -1851,7 +1851,7 @@ aside.widget {
 }
 
 .widget-content .tab-content {
-  background-color: #2f383d;
+  background-color: #2B2D33;
   padding: 20px;
 }
 
@@ -1865,7 +1865,7 @@ aside.widget {
 
 .tab-post-nav li.active a {
   border-top: 3px solid #6cb670;
-  background-color: #2F383D;
+  background-color: #2B2D33;
   color: #6CB670;
 }
 
@@ -1914,7 +1914,7 @@ aside.widget {
 }
 
 .widget-content .tag {
-  background-color: #2F383D;
+  background-color: #2B2D33;
   color: #fff;
   display: inline-block;
   margin-bottom: 10px;
