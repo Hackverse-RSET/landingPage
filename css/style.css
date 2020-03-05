@@ -43,6 +43,7 @@ text-shadow: 4px 2px 4px #aaa;
 
 p {
   font-family: 'Press Start 2P', ;
+text-shadow: 4px 2px 4px #aaa;
  
 }
 
@@ -57,7 +58,7 @@ p {
 
 ::selection {
   color: #fff;
-  background: #F2F70D;
+  background: #57cbcc;
 }
 
 ol,
@@ -107,13 +108,19 @@ a:hover {
   border-radius: 0;
   transition: all .3s ease-in 0s;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .btn:focus {
   color: #ddd;
 }
 
 .btn-transparent {
-  border: 1px solid #f2f70d;
+  border: 1px solid #57cbcc;
 }
 
 .btn-transparent:hover, .btn-transparent:focus {
@@ -163,7 +170,7 @@ a:hover {
 }
 
 .border:before {
-  background-color: #f2f70d;
+  background-color: #57cbcc;
   content: '';
   height: 6px;
   left: 50%;
@@ -261,7 +268,7 @@ a:hover {
 }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: #57cbcc;
   color: #fff;
 }
 
@@ -560,6 +567,13 @@ a:hover {
   left: 0;
   bottom: 0;
 }
+.blob {
+	background: black;
+	border-radius: 50%;
+	margin: 10px;
+	height: 20px;
+	width: 20px;
+}
 
 /*=================================================================
   Navigation
@@ -584,7 +598,7 @@ a:hover {
 }
 
 .navigation .navigation-menu li.active a {
-  color: #57CBCC;
+  color: #57cbcc;
 }
 
 .navigation .navigation-menu li a {
@@ -594,7 +608,7 @@ a:hover {
 
 .navigation .navigation-menu li a:hover, .navigation .navigation-menu li a:focus {
   background: transparent;
-  color: #faff00;
+  color: #57cbcc;
 }
 
 .navbar-toggle {
@@ -2091,6 +2105,39 @@ blockquote {
 .form-group:last-child,
 .form-group:last-child input {
   margin: 0;
+
+/*=================================================================
+	Devfolio button
+#devfolio-apply-now {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #3770FF;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+#devfolio-apply-now:not([disabled]) {
+    cursor: pointer;
+}
+
+#devfolio-apply-now:hover {
+    background-color: #2954BF !important;
+}
+
+==================================================================*/
+
 }
 
 /*# sourceMappingURL=maps/style.css.map */
