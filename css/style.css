@@ -16,7 +16,7 @@ html {
 
 body {
   background-color: #353B43;
-  font-family: "Bauhaus 93", sans-serif;
+  font-family: "Arial", sans-serif;
   color: #fff;
   -webkit-font-smoothing: antialiased;
 }
@@ -32,10 +32,10 @@ h5
 }
 
 h1 {
-  font-weight: 400;
-font-family: "Bauhaus 93", sans-serif;
-  color: #ffc700;
-text-shadow: 4px 2px 4px #aaa;
+
+font-family: "Arial Black", sans-serif;
+  color: #fff;
+
 
 }
 
@@ -579,6 +579,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
+font-family: "Bauhaus 93", sans-serif;
   background-color: #2B2D33;
   width: 100%;
   z-index: 99;
